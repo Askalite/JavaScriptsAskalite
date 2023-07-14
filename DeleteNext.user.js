@@ -7,7 +7,7 @@
 // @match https://ficbook.net/*
 // @icon         https://ficbook.net/favicon.ico
 // @grant        none
-// @updateURL https://github.com/Askalite/JavaScriptsAskalite/raw/main/DeleteNext.user.js
+// @updateURL "https://github.com/Askalite/JavaScriptsAskalite/raw/main/DeleteNext.user.js"
 // ==/UserScript==
 
 (function() {
