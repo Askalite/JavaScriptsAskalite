@@ -16,15 +16,12 @@
         var alert1='не найдено';
         // Находим все ссылки на странице
         var links = document.getElementsByTagName('a');
+        // Обработка ошибок
         var lsterr='';
         for (var i = 0; i < links.length; i++) {
-
             var link = links[i];
-
-            // ищем слово
             try{
                 if (link.href.indexOf(targetWord)>-1) {
-                    //Ваш код для обработки найденной ссылки
                     alert1='hi';
                     link.remove();
                 }
